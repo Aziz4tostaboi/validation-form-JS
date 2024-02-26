@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign In || Page </title>
+</head>
+<body>
+<div class="container">
+    <div class="login">
+        <img src="img/Logo.png" alt="logo" class="logo_img">
+        <div class="login_content_title">
+            <h1 class="login_title">Create an Account</h1>
+            <p class="login_saw_title">Sign up now to get started with an account.</p>
+        </div>
+        <div class="login_content_google">
+            <i class="icon_google"></i>
+            <p class="text">Sign upGoogle</p>
+        </div>
+        <div class="login_content_or">
+            <div class="arrow_right"></div>
+            <span class="or">OR</span>
+            <div class="arrow_left"></div>
+        </div>
+        <form action="" class="form" id="form">
+                <label class="label" for="Input_type_text">
+                    Full Name
+                    <input type="text" placeholder="Full Name" class="input type_text" id="Input_type_text" data-max-length="3" data-required="true">
+                </label>
+
+               <label class="label" for="input_type_email_address">
+                   Email Address
+                   <input type="email" placeholder="your Email Address" class="input type_email_address" id="input_type_email_address" data-required="true">
+               </label>
+               <label class="label" for="Input_type_text_password">
+                   Password
+                   <input type="password" placeholder="your password" class="input type_password" id="Input_type_text_password" data-required="true">
+                   <i class='bx bx-low-vision' id="switch_case_type_text" onclick="toggleInputTypeTextSwitchInputTypePassword()"></i>
+                   <i class='bx bx-show-alt' id="switch_case_type_password" onclick="toggleInputTypeTextSwitchInputTypePassword()"></i>
+               </label>
+                <label class="label" for="Input_type_text_password_confirm">
+                    Confirm Password
+                    <input type="password" placeholder="your password confirm" class="input type_password_confirm" id="Input_type_text_password_confirm" data-required="true">
+                    <i class='bx bx-low-vision' id="switch_case_type_text_confirm" onclick="toggleInputTypeTextSwitchInputTypePasswordConfirm()"></i>
+                    <i class='bx bx-show-alt' id="switch_case_type_password_confirm" onclick="toggleInputTypeTextSwitchInputTypePasswordConfirm()"></i>
+                </label>
+            <div class="login_content_checkbox">
+                <label>
+                    <input type="checkbox" id="Remember me" >
+                    Remember me
+                </label>
+                <p class="login_content_checkbox_saw_title">Forgot Password</p>
+            </div>
+            <button class="btn" type="submit">Sing In</button>
+            <p class="saw_title">Dot't have an account ? <a href="http://localhost:63342/test/index.html?_ijt=2o2s789fgllvnheans40rjue6f&_ij_reload=RELOAD_ON_SAVE" class="link" >Log in</a></p>
+        </form>
+    </div>
+</div>
+<script src="script_page_two.js">  </script>
+</body>
+</html>

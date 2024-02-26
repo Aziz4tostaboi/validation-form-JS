@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e973ca39-887c-4949-8ec5-60b41cc351ee" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2b83pzHEmZdve4m5BgcWO6oIBks" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.indexPage2.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/react-project/portfolio-abylov",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JavaScript Debug.indexPage2.html">
+    <configuration name="indexPage2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/test/indexPage2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/test/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.indexPage2.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e973ca39-887c-4949-8ec5-60b41cc351ee" name="Changes" comment="" />
+      <created>1705583065465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705583065465</updated>
+      <workItem from="1705583066494" duration="5209000" />
+      <workItem from="1705592021197" duration="1658000" />
+      <workItem from="1705593742998" duration="3434000" />
+      <workItem from="1705597231168" duration="1602000" />
+      <workItem from="1705599651524" duration="299000" />
+      <workItem from="1705685830245" duration="297000" />
+      <workItem from="1707233755690" duration="34000" />
+      <workItem from="1707235932245" duration="4000" />
+      <workItem from="1707302408567" duration="80000" />
+      <workItem from="1707302507356" duration="2391000" />
+      <workItem from="1707397125986" duration="59000" />
+      <workItem from="1707843783109" duration="15000" />
+      <workItem from="1707927086044" duration="13000" />
+      <workItem from="1707999688266" duration="33000" />
+      <workItem from="1708071640126" duration="159000" />
+      <workItem from="1708071821734" duration="45000" />
+      <workItem from="1708071899624" duration="4856000" />
+      <workItem from="1708089276126" duration="4813000" />
+      <workItem from="1708356272666" duration="366000" />
+      <workItem from="1708357304967" duration="479000" />
+      <workItem from="1708413658105" duration="1508000" />
+      <workItem from="1708415184767" duration="162000" />
+      <workItem from="1708415353918" duration="45000" />
+      <workItem from="1708415403814" duration="2133000" />
+      <workItem from="1708417583203" duration="11000" />
+      <workItem from="1708417619928" duration="9285000" />
+      <workItem from="1708441572936" duration="16900000" />
+      <workItem from="1708675519318" duration="14000" />
+      <workItem from="1708676176722" duration="12000" />
+      <workItem from="1708676213490" duration="302000" />
+      <workItem from="1708676544742" duration="21000" />
+      <workItem from="1708676576039" duration="17108000" />
+      <workItem from="1708761281316" duration="1190000" />
+      <workItem from="1708930745891" duration="13376000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

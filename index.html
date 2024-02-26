@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Log In || Page</title>
+</head>
+<body>
+<div class="container">
+  <div class="login">
+      <img src="img/Logo.png" alt="logo" class="logo_img">
+      <div class="login_content_title">
+          <h1 class="login_title">Log in to your Account</h1>
+          <p class="login_saw_title">Welcome back, please enter your details.</p>
+      </div>
+      <div class="login_content_google">
+            <i class="icon_google"></i>
+            <p class="text">Continue with Google</p>
+      </div>
+      <div class="login_content_or">
+          <div class="arrow_right"></div>
+          <span class="or">OR</span>
+          <div class="arrow_left"></div>
+      </div>
+      <form action="" class="form" id="form">
+          <label class="label" for="Input_type_text">
+                 Email Address
+              <input  data-max-length="6" data-required="true" type="text" data-min-length="2" placeholder="Email Address" class="input type_text" id="Input_type_text">
+          </label>
+          <label class="label" for="Input_type_text_password">
+              Password
+                  <input data-required="true" type="password" data-min-length="1" placeholder="your password" class="input input type_password" id="Input_type_text_password" >
+              <i class='bx bx-low-vision' id="switch_case_type_text" onclick="toggleInputTypeTextSwitchInputTypePassword()"></i>
+              <i class='bx bx-show-alt' id="switch_case_type_password" onclick="toggleInputTypeTextSwitchInputTypePassword()"></i>
+          </label>
+            <div class="login_content_checkbox">
+                <label>
+                    <input type="checkbox" id="Remember me" >
+                    Remember me
+                </label>
+                <p class="login_content_checkbox_saw_title">Forgot Password</p>
+            </div>
+          <button class="btn" id="button">Log in</button>
+              <p class="saw_title">Dot't have an account ? <a href="http://localhost:63342/test/indexPage2.html?_ijt=nnlealarkbu4v83d8bojbtvf8p&_ij_reload=RELOAD_ON_SAVE" class="link" >Sing up</a></p>
+      </form>
+
+  </div>
+</div>
+<script src="script_page_one.js">  </script>
+</body>
+</html>

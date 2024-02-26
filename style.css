@@ -1,0 +1,207 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+}
+.container{
+    margin:  50px 0 0 0;
+    width: 390px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0 50px 0;
+    gap: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo_img{
+    display: block;
+    margin:auto;
+}
+.login_content_title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login_title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 15px;
+}
+.login_saw_title{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgba(26, 41, 61, 0.83);
+    margin-bottom: 15px;
+}
+.login_content_google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  rgba(27, 43, 65, 0.72);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 337px;
+    gap: 17px;
+    margin-bottom: 15px;
+}
+.icon_google{
+    background-image: url("img/Google__G__Logo 1 (2).png");
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(27, 43, 65, 0.72);
+}
+.login_content_or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.arrow_right{
+    border-top: 1px solid rgba(27, 43, 65, 0.72);
+    width: 126px;
+}
+.or{
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(28, 52, 84, 0.26);
+}
+.arrow_left{
+    border-top: 1px solid rgba(27, 43, 65, 0.72);
+    width: 126px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    font-size:15px ;
+    font-weight:500 ;
+    color: rgba(27, 43, 65, 0.72);
+    gap: 5px;
+    transition: color 3ms  ease;
+    position: relative;
+}
+.input{
+    border: 1px solid rgba(27, 43, 65, 0.72);
+    width: 337px;
+    border-radius: 3px;
+    padding: 10px 0 10px 5px ;
+    font-size: 15px;
+    outline:none;
+    position: relative;
+}
+.input:focus{
+    border: solid #1E90FF;
+}
+
+.type_password{
+}
+.bx-low-vision{
+    position: absolute;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    left: 315px;
+    top: 37px;
+}
+.bx-show-alt{
+    position: absolute;
+    left: 315px;
+    top: 37px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login_content_checkbox{
+    display: flex;
+    width: 337px;
+    align-items: center;
+    gap: 10px;
+}
+.login_content_checkbox input[type=checkbox]{
+    border: none;
+    border-radius: 5px;
+    background: none;
+    background: #DCDCDC;
+    line-height: 0;
+    outline: 0;
+    padding: 0 ;
+    vertical-align: text-top;
+    height: 20px;
+    width: 20px;
+    opacity: .5;
+}
+input[type=checkbox]:hover {
+    opacity: 1;
+}
+
+input[type=checkbox]:checked {
+    background-color: #1E90FF;
+    opacity: 1;
+}
+.login_content_checkbox label{
+    color: rgba(27, 43, 65, 0.72);
+}
+.login_content_checkbox_saw_title{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
+    color: rgba(51, 51, 51, 1);
+    margin-left: 90px;
+}
+.btn{
+    border:  none;
+    background: #1E90FF;
+    border-radius: 5px;
+    color: white;
+   font-size: 20px;
+    width: 337px;
+    padding: 10px;
+    cursor: pointer;
+}
+.saw_title{
+  margin-left: 50px;
+  font-size: 15px;
+    font-weight: 200;
+    line-height: 18px;
+}
+.link{
+    text-decoration: none;
+    color: blue;
+}
+.error .input{
+    border-color: red;
+}
+.error-label{
+    color: red;
+}
